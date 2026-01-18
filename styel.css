@@ -13,13 +13,15 @@
     box-sizing: border-box;
 }
 header{
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border: 1px solid red;
+    padding: 20px 0px;
 }
 ul{
     display: flex;
@@ -44,5 +46,146 @@ li{
     font-weight: bold;
 }
 .lr{
-    
+     background: linear-gradient( 45deg, purple, rgb(251, 5, 132), orange);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
 }
+.hero-section{
+    max-width: 1600px;
+    margin: 0 auto;
+    border: 1px solid red;
+    text-align: center;
+    background: url(assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0cm;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+.hero-section img{
+    padding-top: 100px;
+    width: 350px
+}
+.hero-section h1{
+    font-size: 3.9rem;
+    color: white;
+    margin-top: 40px;
+}
+.brt{
+    padding: 12px 20px;
+     background: linear-gradient( 45deg, purple, rgb(251, 5, 132), orange);
+     border: none;
+     color: white;
+     border-radius: 30px;
+     font-weight: bold;
+     margin-left: 10px;
+     margin-top: 24px;
+     margin-bottom: 102px;
+}
+.mix{
+    position: absolute;
+    left:740px;
+    top: 70px;
+}
+.mix img{
+    width: 100%;
+}
+.new{
+    position: absolute;
+    padding: 8px 16px;
+    border-radius: 30px;
+    background-color: #00FF88;
+    font-weight: bold;
+    top: 100px;
+    left: 880px;
+    border: none;
+}
+.brtp{
+    background-color: transparent;
+    border: 1px solid rgb(4, 244, 4);
+    color: rgb(2, 246, 2);
+    padding: 12px 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+/* sends-edtion */
+.secteion2{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #1A0B2E;
+    color: white;
+}
+.cont2{
+    text-align: center;
+
+}
+.cont2 h1{
+    font-size: 4rem;
+    padding-top: 50px;
+}
+.cont2 p{
+    font-size: 1rem;
+    line-height: 26px;
+}
+.pt{
+    margin-top: 50px;
+}
+.nuber-site{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 160px;
+}
+.nuber-card{
+    text-align: center;
+}
+.nuber-card h2{
+    font-size: 3rem;
+    color: rgb(24, 251, 24);
+    padding-bottom: 10px;
+}
+.nuber-card p{
+    text-transform: uppercase;
+    padding-bottom: 120px;
+}
+.complex-section{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.complex-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.box-1{
+    background-color: #230e3dd7;
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    li{
+        display:none;
+    }
+    .h-bt{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+        padding:10px;
+    }
+    .nuber-site{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    
+    }
+    .secteion2{
+        padding: 20px;
+    }
