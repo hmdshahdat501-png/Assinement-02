@@ -1,3 +1,48 @@
-h2{
-    font-size: 100px;
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+
+}
+li{
+    margin-left: 32px;
+    align-items: center;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.h-bt{
+    font-size: 1rem;
+    padding: 12px 16px;
+    border-radius: 30px;
+    background: linear-gradient( 45deg, purple, rgb(251, 5, 132), orange);
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.lr{
+    
 }
