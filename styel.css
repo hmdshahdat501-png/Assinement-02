@@ -150,23 +150,80 @@ li{
     text-transform: uppercase;
     padding-bottom: 120px;
 }
+/* complex-section */
 .complex-section{
     max-width: 1600px;
     margin: 0 auto;
+    background-color: #230E3D;
 }
 .complex-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 20px;
+    gap: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 120px;
 }
 
 .box-1{
-    background-color: #230e3dd7;
+    background-color: #39106c4c;
     grid-column: span 1;
     grid-row: span 2;
-}
+    padding: 107px 40px;
+     border-radius: 20px;
 
+}
+.boxh2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 16px;
+    
+}
+.boxp{
+    font-size: 1rem;
+    color: white;
+    margin-top: 16px;
+}
+.box-2{
+    background-color:#39106c4c;
+    grid-column: span 2;
+    padding-top: 42px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+     border-radius: 20px;
+}
+.box-3{
+    background-color:#39106c4c;
+    grid-column: span 2;
+    padding-top: 42px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+     border-radius: 20px;
+}
+.box-4{
+    background-color: #39106c4c;
+    grid-column: span 2;
+    padding-top: 42px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+     border-radius: 20px;
+}
+.box-5{
+    background-color:#39106c4c;
+    padding-top: 42px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+}
+.complex-section h1{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
 
 
 
@@ -189,3 +246,24 @@ li{
     .secteion2{
         padding: 20px;
     }
+    .complex-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 10px;
+    }
+    .complex-section h1{
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+}
+.box-1{
+    background-color: #39106c4c;
+    grid-column: span 1;
+    grid-row: span 2;
+    padding-top: 24px;
+     border-radius: 20px;
+
