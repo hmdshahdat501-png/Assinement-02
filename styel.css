@@ -224,9 +224,144 @@ li{
     padding-top: 120px;
     padding-bottom: 40px;
 }
+/* veido-contct */
+.youtub{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #1A0B2E;
+    
+}
+.youtub-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0px 200px;
+    color: white;
+    padding-bottom: 120px;
 
+}
+.youtub h1{
+    text-align: center;
+    padding-top: 120px;
+    font-size: 3rem;
+    padding-bottom: 40px;
+    color: white;
+    font-weight: bold;
+}
+.caid-id{
+    background-color: #39106ce1;
+    justify-content: center;
+    border-radius: 20px;
+    
+}
+.caid-id h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 24px;
+    padding-bottom: 0px;
+}
+.caid-id p{
+    font-size: 1rem;
+    padding: 24px 24px;
+    pad
+}
+.dures{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 24px;
+    
 
+}
+.dures img{
+    margin-left: 24px;
+}
+.dures h4{
+    color: #00FF88;
+}
+.dures p{
+    padding-bottom: 24px;
+}
+.ifre{
+    padding: 0px;
+    margin: 0px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+.caid-id iframe{
+    margin: 0px;
+    padding: 0px;
+}
+.host{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #1A0B2E;
+}
+.host h1{
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 24px;
+    color: white;
 
+}
+.host-cnt{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color:#39106ce1;
+    margin: 0px 200px;
+    border-radius: 10px;
+  
+}
+.img-cot {
+      padding: 48px 40px;
+}
+.img-cot h2{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+.img-cot p{
+    font-size: 1rem;
+    color: white;
+    line-height: 26px;
+    margin: 16px 0px;
+}
+.icon{
+    align-items: center;
+   
+}
+.icon img{
+    padding: 14px 11px;
+    border: 1px solid white;
+    background-color: none;
+    border-radius: 50%;
+    margin-left: 10px;
+    
+}
+.host-img{
+    margin: 40px;
+    margin-right: 0px;
+}
+footer{
+    position: relative;
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+.imgrt{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.fotter-logo{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    font-size: 6rem;
+    color: white;
+}
 @media screen and (max-width:576px) {
     li{
         display:none;
@@ -242,6 +377,13 @@ li{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     
+    }
+    .lrt{
+        width: 50%;
+        padding: 0px;
+    }
+    .hero-section{
+        background-size: 100%;
     }
     .secteion2{
         padding: 20px;
@@ -267,3 +409,50 @@ li{
     padding-top: 24px;
      border-radius: 20px;
 
+}
+.youtub-card{
+    display: block;
+    padding: 0px;
+
+}
+.caid-id{
+    margin-bottom: px;
+
+
+}
+.ifre{
+    width: 100%;
+    height: 100%;
+}
+.youtub h1{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.host{
+    margin: 0px;
+}
+.host-cnt{
+    display: block;
+    margin: 10px;
+  
+}
+.host-img{
+    margin: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.img-cot{
+    text-align: center;
+    pa
+}
+.host h1{
+    text-align: left;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+.imgr{
+    width: 100%;
+}
+    
+  
