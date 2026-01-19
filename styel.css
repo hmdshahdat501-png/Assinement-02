@@ -466,6 +466,18 @@ li{
 .icone{
     display: flex;
 }
+.icnt-sect{
+    display: flex;
+}
+.mul-icon{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: absolute;
+    top: 505%;
+    left: 40%;
+    color: white;
+    gap: 40px;
+}
 @media screen and (max-width:576px) {
     li{
         display:none;
