@@ -387,6 +387,7 @@ li{
 }
 .img-cot {
       padding: 48px 40px;
+      text-align: left;
 }
 .img-cot h2{
     font-size: 2rem;
@@ -505,8 +506,8 @@ footer .footer-imge{
     }
     .maric{
     position: absolute;
-    top: 22%;
-    left: 35%;
+    top: 23%;
+    left: 39%;
 }
 .hero-setion{
     text-align: center;
@@ -635,6 +636,8 @@ footer .footer-imge{
  }
  .hub{
     display: block;
+    margin: none;
+    padding: none;
 }
 /* .imgr{
     width: 100%;
