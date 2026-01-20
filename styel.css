@@ -87,48 +87,32 @@ li{
      margin-bottom: 102px;
 } */
 
-.hero-sect{
+.hero-setion{
+    text-align: center;
     max-width: 1600px;
     margin: 0 auto;
-    background-color:#1A0B2E
-
-}
-.big-img{
     position: relative;
-    width: 100%;
+    background: url(assets/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top: 100px;
+    
 }
-.smal-img{
+.maric{
     position: absolute;
-    top: 20%;
-    left: 40%;
-    display: block;
-    width: 20%;
-    object-fit: cover;
-
+    top: 22%;
+    left: 46.5%;
 }
-.mi-png{
-    position: absolute;
-    top: 30%;
-    left: 46%;
-    display: block;
-    width: 8%;
-    object-fit: cover;
-
-}
-.cont{
-    position: absolute;
-    top: 70%;
-    left: 37%;
-    text-align: center;
-}
-.cont h1{
-    font-size: 3rem;
-    font-weight: bold;
+.tex{
+    font-size: 4rem;
+    margin-top: 40px;
     color: white;
 }
-.cont p{
+.smxtex{
+    font-size: 1rem;
+    padding: 8px;
     color: white;
-    padding: 20px 0px ;
 }
 .but{
     padding: 12px 20px;
@@ -136,6 +120,8 @@ li{
     font-weight: bold;
      background: linear-gradient( 45deg, purple, rgb(251, 5, 132), orange);
      color: white;
+     margin-bottom: 100px;
+     margin-top: 24px;
      
 }
 .brt{
@@ -144,7 +130,18 @@ li{
     border: 1px solid green;
     margin-left: 10px;
 }
-
+.new{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    animation: autojump 2s ease-in-out infinite;
+}
+@keyfreames autojump{
+    0%  { transform: translateY(0); }
+    25%  { transform: translateY(-35px); }
+    50%  { transform: translateY(0); }
+    75%  { transform: translateY(-15px); }
+    100%  { transform: translateY(0); }
+}
 .mix{
     position: absolute;
     left:740px;
@@ -183,6 +180,10 @@ li{
 }
 .cont2{
     text-align: center;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #1A0B2E;
+    color: white;
 
 }
 .cont2 h1{
@@ -192,16 +193,19 @@ li{
 .cont2 p{
     font-size: 1rem;
     line-height: 26px;
+    padding: 20px 0px;
 }
 .pt{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .nuber-site{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;
     align-items: center;
-    margin-top: 160px;
+     background-color: #1A0B2E;
+    color: white;
+    padding-top: 100px;
 }
 .nuber-card{
     text-align: center;
@@ -404,6 +408,7 @@ li{
     background-color: none;
     border-radius: 50%;
     margin-left: 10px;
+    pa
     
 }
 .host-img{
@@ -443,41 +448,8 @@ li{
     align-items: center;
     gap: 10px;
 } */
-.foote{
-    max-width: 1600px;
-    margin: 0 auto;
-}
-.fotter-img{
-    position: relative;
-    width: 100%;
-}
-.footer-imge{
-    position: absolute;
-    left: 20%;
-    top: 490%;
-    color: white;
-    font-size: 5rem;
-    left: 40%;
-}
-.icont{
-    position: absolute;
 
-}
-.icone{
-    display: flex;
-}
-.icnt-sect{
-    display: flex;
-}
-.mul-icon{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    position: absolute;
-    top: 505%;
-    left: 40%;
-    color: white;
-    gap: 40px;
-}
+ 
 @media screen and (max-width:576px) {
     li{
         display:none;
@@ -498,9 +470,11 @@ li{
         width: 50%;
         height: 50%;
     }
-    .hero-section{
-        background-size: 100%;
-    }
+    .maric{
+    position: absolute;
+    top: 22%;
+    left: 35%;
+}
     .secteion2{
         padding: 20px;
     }
@@ -567,6 +541,9 @@ li{
     text-align: left;
     margin-left: 10px;
     padding-top: 20px;
+}
+.new{
+    left: 65%;
 }
 /* .imgr{
     width: 100%;
@@ -639,3 +616,7 @@ footer{
     
 } */
  
+}
+.cont2{
+    padding: 10px;
+}
