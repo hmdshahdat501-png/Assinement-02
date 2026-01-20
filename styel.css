@@ -24,6 +24,9 @@ nav{
     border: 1px solid red;
     padding: 20px 0px;
 }
+.hub{
+    display: none;
+}
 ul{
     display: flex;
     list-style: none;
@@ -630,6 +633,9 @@ footer .footer-imge{
     font-weight: 200;
     padding: 10px;
  }
+ .hub{
+    display: block;
+}
 /* .imgr{
     width: 100%;
     margin-top: 0px;
