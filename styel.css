@@ -255,6 +255,7 @@ li{
     max-width: 1600px;
     margin: 0 auto;
     background-color: #230E3D;
+    
 }
 .complex-grid{
     display: grid;
@@ -264,6 +265,7 @@ li{
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom: 120px;
+    text-align: left;
 }
 
 .box-1{
@@ -272,6 +274,7 @@ li{
     grid-row: span 2;
     padding: 107px 40px;
      border-radius: 20px;
+     
 
 }
 .boxh2{
@@ -279,6 +282,8 @@ li{
     font-weight: bold;
     color: white;
     margin-top: 16px;
+    
+    
     
 }
 .boxp{
@@ -316,6 +321,7 @@ li{
     padding-left: 50px;
     padding-bottom: 40px;
     border-radius: 20px;
+    padding-right: 5px;
 }
 .complex-section h1{
     font-size: 3rem;
