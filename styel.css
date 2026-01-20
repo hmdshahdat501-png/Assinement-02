@@ -51,9 +51,7 @@ li{
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
 }
-.humbr{
-    display: none;
-}
+
 /* .hero-section{
     max-width: 1600px;
     margin: 0 auto;
@@ -92,7 +90,7 @@ li{
     max-width: 1600px;
     margin: 0 auto;
     position: relative;
-    background: url(assets/hero-bg.png);
+    background: url(/assets/hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -448,8 +446,39 @@ li{
     align-items: center;
     gap: 10px;
 } */
+footer{
+    max-width: 1600px;
+    margin: 0 auto;
+    background: url(assets/footer-bg.png);
+    margin-top: 120px;
+    padding-bottom: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+footer .footer-imge{
+    font-size: 8rem;
+}
 
- 
+
+ .icont{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    
+ }
+ .icont span{
+    padding-left: px;
+ }
+ .icont img{
+    margin-left: 50px;
+    margin-right: none;
+ }
+ .cpu{
+    margin-top: 40px;
+    font-size: 1.5rem;
+    font-weight: 200;
+ }
+    
 @media screen and (max-width:576px) {
     li{
         display:none;
@@ -466,6 +495,7 @@ li{
     grid-template-rows: repeat(2, 1fr);
     
     }
+    
     .lrt{
         width: 50%;
         height: 50%;
@@ -474,6 +504,26 @@ li{
     position: absolute;
     top: 22%;
     left: 35%;
+}
+.hero-setion{
+    text-align: center;
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+    background: url(assets/Header\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top: 100px;
+    width: 100%;
+    
+}
+ .box-1{
+    background-color: #39106c4c;
+    grid-column: span2;
+    grid-row: span ;
+     border-radius: 20px;
+
 }
     .secteion2{
         padding: 20px;
@@ -545,6 +595,41 @@ li{
 .new{
     left: 65%;
 }
+footer{
+    max-width: 1600px;
+    margin: 0 auto;
+    background: url(assets/Image.png);
+    margin-top: 120px;
+    padding-bottom: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cont2{
+    padding: 10px;
+}
+footer .footer-imge{
+    font-size: 4rem;
+}
+.icont{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0px 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+    
+ }
+ .icont span{
+    padding-bottom: 10px;
+ }
+.cpu{
+    margin-top: 40px;
+    font-size: 1rem;
+    font-weight: 200;
+    padding: 10px;
+ }
 /* .imgr{
     width: 100%;
     margin-top: 0px;
@@ -616,7 +701,3 @@ footer{
     
 } */
  
-}
-.cont2{
-    padding: 10px;
-}
