@@ -48,6 +48,18 @@ li{
     border: none;
     color: white;
     font-weight: bold;
+    animation: h-bt 2s infinite ease-out;
+}
+@keyframes h-bt{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.08);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 .lr{
      background: linear-gradient( 45deg, purple, rgb(251, 5, 132), orange);
@@ -137,7 +149,18 @@ li{
      color: white;
      margin-bottom: 100px;
      margin-top: 24px;
-     
+     animation: but 2s infinite ease-in-out;
+}
+@keyframes but{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.08);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 .brt{
     background: transparent;
@@ -468,7 +491,8 @@ footer{
     background-size: cover;
 }
 footer .footer-imge{
-    font-size: 8rem;
+    font-size: 6rem;
+    padding-top: 60px;
 }
 
 
