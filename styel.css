@@ -481,8 +481,9 @@ footer .footer-imge{
     padding-left: px;
  }
  .icont img{
-    margin-left: 50px;
+    margin-left: 40px;
     margin-right: none;
+    margin-top: 10px;
  }
  .cpu{
     margin-top: 40px;
